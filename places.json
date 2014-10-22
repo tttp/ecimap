@@ -1,0 +1,2255 @@
+{
+    "type": "Topology",
+    "objects": {
+        "places": {
+            "type": "GeometryCollection",
+            "geometries": [{
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Bologna",
+                    "iso": "IT"
+                },
+                "coordinates": [1820, 5223]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Cagliari",
+                    "iso": "IT"
+                },
+                "coordinates": [1710, 4354]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Catanzaro",
+                    "iso": "IT"
+                },
+                "coordinates": [2078, 4301]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Bari",
+                    "iso": "IT"
+                },
+                "coordinates": [2092, 4665]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "L'Aquila",
+                    "iso": "IT"
+                },
+                "coordinates": [1920, 4869]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Ancona",
+                    "iso": "IT"
+                },
+                "coordinates": [1926, 5075]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Perugia",
+                    "iso": "IT"
+                },
+                "coordinates": [1871, 4994]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Trieste",
+                    "iso": "IT"
+                },
+                "coordinates": [1940, 5412]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Trento",
+                    "iso": "IT"
+                },
+                "coordinates": [1809, 5483]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Caen",
+                    "iso": "FR"
+                },
+                "coordinates": [1245, 5994]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Nantes",
+                    "iso": "FR"
+                },
+                "coordinates": [1184, 5669]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Ajaccio",
+                    "iso": "FR"
+                },
+                "coordinates": [1691, 4799]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Montpellier",
+                    "iso": "FR"
+                },
+                "coordinates": [1452, 5076]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Dijon",
+                    "iso": "FR"
+                },
+                "coordinates": [1509, 5689]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Orleans",
+                    "iso": "FR"
+                },
+                "coordinates": [1355, 5783]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Rouen",
+                    "iso": "FR"
+                },
+                "coordinates": [1315, 6035]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Reims",
+                    "iso": "FR"
+                },
+                "coordinates": [1460, 6005]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Amiens",
+                    "iso": "FR"
+                },
+                "coordinates": [1375, 6112]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Nancy",
+                    "iso": "FR"
+                },
+                "coordinates": [1567, 5912]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Novi Sad",
+                    "iso": "RS"
+                },
+                "coordinates": [2238, 5346]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Banja Luka",
+                    "iso": "BA"
+                },
+                "coordinates": [2107, 5269]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "region_capital",
+                    "name": "Douglas",
+                    "iso": "IM"
+                },
+                "coordinates": [1042, 6812]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "capital",
+                    "name": "San Marino",
+                    "iso": "SM"
+                },
+                "coordinates": [1874, 5130]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 7,
+                    "type": "capital",
+                    "name": "Vaduz",
+                    "iso": "LI"
+                },
+                "coordinates": [1730, 5657]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Edinburgh",
+                    "iso": "GB"
+                },
+                "coordinates": [1104, 7108]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Cardiff",
+                    "iso": "GB"
+                },
+                "coordinates": [1103, 6375]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "capital",
+                    "name": "Luxembourg",
+                    "iso": "LU"
+                },
+                "coordinates": [1563, 6065]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Turin",
+                    "iso": "IT"
+                },
+                "coordinates": [1639, 5317]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Rennes",
+                    "iso": "FR"
+                },
+                "coordinates": [1180, 5816]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Toulouse",
+                    "iso": "FR"
+                },
+                "coordinates": [1333, 5078]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Limoges",
+                    "iso": "FR"
+                },
+                "coordinates": [1323, 5442]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Lille",
+                    "iso": "FR"
+                },
+                "coordinates": [1413, 6236]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Strasbourg",
+                    "iso": "FR"
+                },
+                "coordinates": [1643, 5895]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Batumi",
+                    "iso": "GE"
+                },
+                "coordinates": [3309, 4745]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Funchal",
+                    "iso": "PT"
+                },
+                "coordinates": [432, 3272]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Genoa",
+                    "iso": "IT"
+                },
+                "coordinates": [1701, 5208]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "region_capital",
+                    "name": "Sukhumi",
+                    "iso": "GE"
+                },
+                "coordinates": [3279, 4979]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "capital",
+                    "name": "Monaco",
+                    "iso": "MC"
+                },
+                "coordinates": [1626, 5098]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 6,
+                    "type": "capital",
+                    "name": "Andorra",
+                    "iso": "AD"
+                },
+                "coordinates": [1337, 4894]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Manchester",
+                    "iso": "GB"
+                },
+                "coordinates": [1151, 6705]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Taizz",
+                    "iso": "YE"
+                },
+                "coordinates": [3427, 136]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Lvov",
+                    "iso": "UA"
+                },
+                "coordinates": [2443, 6101]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Odessa",
+                    "iso": "UA"
+                },
+                "coordinates": [2772, 5551]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Zhytomyr",
+                    "iso": "UA"
+                },
+                "coordinates": [2671, 6169]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Dnipropetrovsk",
+                    "iso": "UA"
+                },
+                "coordinates": [2983, 5879]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Donetsk",
+                    "iso": "UA"
+                },
+                "coordinates": [3122, 5799]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kharkiv",
+                    "iso": "UA"
+                },
+                "coordinates": [3044, 6129]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Birmingham",
+                    "iso": "GB"
+                },
+                "coordinates": [1167, 6536]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "region_capital",
+                    "name": "Belfast",
+                    "iso": "GB"
+                },
+                "coordinates": [969, 6886]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Izmir",
+                    "iso": "TR"
+                },
+                "coordinates": [2597, 4225]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Bursa",
+                    "iso": "TR"
+                },
+                "coordinates": [2691, 4515]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Samsun",
+                    "iso": "TR"
+                },
+                "coordinates": [3049, 4693]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Konya",
+                    "iso": "TR"
+                },
+                "coordinates": [2859, 4132]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Adana",
+                    "iso": "TR"
+                },
+                "coordinates": [2998, 3987]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Cordoba",
+                    "iso": "ES"
+                },
+                "coordinates": [1027, 4133]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Constanta",
+                    "iso": "RO"
+                },
+                "coordinates": [2669, 5174]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Luleå",
+                    "iso": "SE"
+                },
+                "coordinates": [2351, 8697]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Sundsvall",
+                    "iso": "SE"
+                },
+                "coordinates": [2113, 8170]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Iasi",
+                    "iso": "RO"
+                },
+                "coordinates": [2618, 5662]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "region_capital",
+                    "name": "Ponta Delgada",
+                    "iso": "PT"
+                },
+                "coordinates": [0, 4111]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Vigo",
+                    "iso": "ES"
+                },
+                "coordinates": [833, 4847]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Bilbao",
+                    "iso": "ES"
+                },
+                "coordinates": [1118, 5017]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kaolack",
+                    "iso": "SM"
+                },
+                "coordinates": [470, 226]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kaedi",
+                    "iso": "SM"
+                },
+                "coordinates": [598, 555]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Medina",
+                    "iso": "SA"
+                },
+                "coordinates": [3208, 1930]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Tabuk",
+                    "iso": "SA"
+                },
+                "coordinates": [3059, 2569]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital alt",
+                    "name": "The Hague",
+                    "iso": "NL"
+                },
+                "coordinates": [1472, 6471]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kristiansand",
+                    "iso": "NO"
+                },
+                "coordinates": [1655, 7473]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Ljubljana",
+                    "iso": "SI"
+                },
+                "coordinates": [1976, 5479]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Bratislava",
+                    "iso": "SK"
+                },
+                "coordinates": [2104, 5824]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Hammerfest",
+                    "iso": "NO"
+                },
+                "coordinates": [2427, 9530]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Doha",
+                    "iso": "QA"
+                },
+                "coordinates": [3796, 2059]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Podgorica",
+                    "iso": "ME"
+                },
+                "coordinates": [2209, 4888]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Naltchik",
+                    "iso": "RU"
+                },
+                "coordinates": [3407, 5058]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Stavropol",
+                    "iso": "RU"
+                },
+                "coordinates": [3326, 5313]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Ugolnye Kopi",
+                    "iso": "RU"
+                },
+                "coordinates": [9999, 8554]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kaliningrad",
+                    "iso": "RU"
+                },
+                "coordinates": [2270, 6902]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Pskov",
+                    "iso": "RU"
+                },
+                "coordinates": [2655, 7418]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Bryansk",
+                    "iso": "RU"
+                },
+                "coordinates": [2955, 6665]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Smolensk",
+                    "iso": "RU"
+                },
+                "coordinates": [2838, 6916]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Petrozavodsk",
+                    "iso": "RU"
+                },
+                "coordinates": [2947, 8080]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Tver",
+                    "iso": "RU"
+                },
+                "coordinates": [3027, 7258]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Vologda",
+                    "iso": "RU"
+                },
+                "coordinates": [3225, 7645]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Yaroslavl",
+                    "iso": "RU"
+                },
+                "coordinates": [3222, 7383]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Rostov",
+                    "iso": "RU"
+                },
+                "coordinates": [3214, 5673]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Sochi",
+                    "iso": "RU"
+                },
+                "coordinates": [3215, 5073]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Krasnodar",
+                    "iso": "RU"
+                },
+                "coordinates": [3179, 5308]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Penza",
+                    "iso": "RU"
+                },
+                "coordinates": [3474, 6652]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Ryazan",
+                    "iso": "RU"
+                },
+                "coordinates": [3215, 6889]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Voronezh",
+                    "iso": "RU"
+                },
+                "coordinates": [3193, 6414]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Magnitogorsk",
+                    "iso": "RU"
+                },
+                "coordinates": [4162, 6692]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Chelyabinsk",
+                    "iso": "RU"
+                },
+                "coordinates": [4283, 6978]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Vorkuta",
+                    "iso": "RU"
+                },
+                "coordinates": [4409, 9010]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kirov",
+                    "iso": "RU"
+                },
+                "coordinates": [3704, 7543]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Nizhny Tagil",
+                    "iso": "RU"
+                },
+                "coordinates": [4211, 7433]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Astrakhan",
+                    "iso": "RU"
+                },
+                "coordinates": [3625, 5527]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Orenburg",
+                    "iso": "RU"
+                },
+                "coordinates": [3972, 6422]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Saratov",
+                    "iso": "RU"
+                },
+                "coordinates": [3525, 6389]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Ulyanovsk",
+                    "iso": "RU"
+                },
+                "coordinates": [3642, 6841]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Omsk",
+                    "iso": "RU"
+                },
+                "coordinates": [4871, 6950]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Tyumen",
+                    "iso": "RU"
+                },
+                "coordinates": [4484, 7304]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Novokuznetsk",
+                    "iso": "RU"
+                },
+                "coordinates": [5545, 6746]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kemerovo",
+                    "iso": "RU"
+                },
+                "coordinates": [5495, 7008]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Groznyy",
+                    "iso": "RU"
+                },
+                "coordinates": [3509, 5028]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Ust-Ulimsk",
+                    "iso": "RU"
+                },
+                "coordinates": [6308, 7444]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Angarsk",
+                    "iso": "RU"
+                },
+                "coordinates": [6371, 6550]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Abakan",
+                    "iso": "RU"
+                },
+                "coordinates": [5758, 6738]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Norilsk",
+                    "iso": "RU"
+                },
+                "coordinates": [5600, 9313]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Khatanga",
+                    "iso": "RU"
+                },
+                "coordinates": [6300, 9758]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kyzyl",
+                    "iso": "RU"
+                },
+                "coordinates": [5903, 6409]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Ulan Ude",
+                    "iso": "RU"
+                },
+                "coordinates": [6554, 6429]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Blagoveshchensk",
+                    "iso": "RU"
+                },
+                "coordinates": [7532, 6172]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Bukachacha",
+                    "iso": "RU"
+                },
+                "coordinates": [7010, 6620]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Dalnegorsk",
+                    "iso": "RU"
+                },
+                "coordinates": [7925, 5229]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "Historic place",
+                    "name": "Ambarchik",
+                    "iso": "RU"
+                },
+                "coordinates": [9243, 9364]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Batagay",
+                    "iso": "RU"
+                },
+                "coordinates": [7882, 9036]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Chokurdakh",
+                    "iso": "RU"
+                },
+                "coordinates": [8534, 9523]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Ust Nera",
+                    "iso": "RU"
+                },
+                "coordinates": [8303, 8527]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Lensk",
+                    "iso": "RU"
+                },
+                "coordinates": [6914, 7894]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Aldan",
+                    "iso": "RU"
+                },
+                "coordinates": [7427, 7545]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Mirnyy",
+                    "iso": "RU"
+                },
+                "coordinates": [6865, 8193]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Zhigansk",
+                    "iso": "RU"
+                },
+                "coordinates": [7328, 8890]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Okhotsk",
+                    "iso": "RU"
+                },
+                "coordinates": [8304, 7673]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Khabarovsk",
+                    "iso": "RU"
+                },
+                "coordinates": [7905, 5874]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Okha",
+                    "iso": "RU"
+                },
+                "coordinates": [8290, 6717]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Yuzhno Sakhalinsk",
+                    "iso": "RU"
+                },
+                "coordinates": [8280, 5629]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Gdansk",
+                    "iso": "PL"
+                },
+                "coordinates": [2178, 6846]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kraków",
+                    "iso": "PL"
+                },
+                "coordinates": [2243, 6139]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Bern",
+                    "iso": "CH"
+                },
+                "coordinates": [1629, 5621]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Malmö",
+                    "iso": "SE"
+                },
+                "coordinates": [1903, 7048]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "region_capital",
+                    "name": "Florence",
+                    "iso": "IT"
+                },
+                "coordinates": [1815, 5104]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Catania",
+                    "iso": "IT"
+                },
+                "coordinates": [2003, 4070]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Dresden",
+                    "iso": "DE"
+                },
+                "coordinates": [1938, 6301]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "region_capital",
+                    "name": "Bordeaux",
+                    "iso": "FR"
+                },
+                "coordinates": [1233, 5281]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "region_capital",
+                    "name": "Marseille",
+                    "iso": "FR"
+                },
+                "coordinates": [1526, 5024]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Le Havre",
+                    "iso": "FR"
+                },
+                "coordinates": [1267, 6047]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Skopje",
+                    "iso": "MK"
+                },
+                "coordinates": [2316, 4811]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Kirkuk",
+                    "iso": "IQ"
+                },
+                "coordinates": [3445, 3736]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Mosul",
+                    "iso": "IQ"
+                },
+                "coordinates": [3383, 3880]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "An Najaf",
+                    "iso": "IQ"
+                },
+                "coordinates": [3442, 3165]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Rovaniemi",
+                    "iso": "FI"
+                },
+                "coordinates": [2526, 8845]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Vaasa",
+                    "iso": "FI"
+                },
+                "coordinates": [2324, 8285]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Tampere",
+                    "iso": "FI"
+                },
+                "coordinates": [2430, 8022]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Basra",
+                    "iso": "IQ"
+                },
+                "coordinates": [3613, 2920]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "region_capital",
+                    "name": "Venice",
+                    "iso": "IT"
+                },
+                "coordinates": [1868, 5377]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Brest",
+                    "iso": "BY"
+                },
+                "coordinates": [2427, 6474]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "",
+                    "name": "Las Palmas",
+                    "iso": "ES"
+                },
+                "coordinates": [503, 2523]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 4,
+                    "type": "capital",
+                    "name": "Manama",
+                    "iso": "BH"
+                },
+                "coordinates": [3749, 2216]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Sevastapol",
+                    "iso": "UA"
+                },
+                "coordinates": [2907, 5239]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Abu Dhabi",
+                    "iso": "AE"
+                },
+                "coordinates": [3935, 1924]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Reykjavík",
+                    "iso": "IS"
+                },
+                "coordinates": [183, 8458]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Glasgow",
+                    "iso": "GB"
+                },
+                "coordinates": [1053, 7096]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Aden",
+                    "iso": "YE"
+                },
+                "coordinates": [3475, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Seville",
+                    "iso": "ES"
+                },
+                "coordinates": [968, 4055]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Tromsø",
+                    "iso": "NO"
+                },
+                "coordinates": [2196, 9361]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Trondheim",
+                    "iso": "NO"
+                },
+                "coordinates": [1774, 8338]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Bergen",
+                    "iso": "NO"
+                },
+                "coordinates": [1524, 7839]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Chisinau",
+                    "iso": "MD"
+                },
+                "coordinates": [2681, 5635]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Tomsk",
+                    "iso": "RU"
+                },
+                "coordinates": [5440, 7198]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Anadyr",
+                    "iso": "RU"
+                },
+                "coordinates": [9988, 8555]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Murmansk",
+                    "iso": "RU"
+                },
+                "coordinates": [2889, 9252]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Archangel",
+                    "iso": "RU"
+                },
+                "coordinates": [3255, 8528]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Nizhny Novgorod",
+                    "iso": "RU"
+                },
+                "coordinates": [3425, 7172]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Volgograd",
+                    "iso": "RU"
+                },
+                "coordinates": [3450, 5916]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Ufa",
+                    "iso": "RU"
+                },
+                "coordinates": [4017, 6917]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Yekaterinburg",
+                    "iso": "RU"
+                },
+                "coordinates": [4241, 7257]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Samara",
+                    "iso": "RU"
+                },
+                "coordinates": [3728, 6655]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Kazan",
+                    "iso": "RU"
+                },
+                "coordinates": [3677, 7076]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Surgut",
+                    "iso": "RU"
+                },
+                "coordinates": [4872, 7982]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Barnaul",
+                    "iso": "RU"
+                },
+                "coordinates": [5379, 6681]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Novosibirsk",
+                    "iso": "RU"
+                },
+                "coordinates": [5341, 6957]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Muscat",
+                    "iso": "OM"
+                },
+                "coordinates": [4143, 1784]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Bratsk",
+                    "iso": "RU"
+                },
+                "coordinates": [6258, 7142]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Irkutsk",
+                    "iso": "RU"
+                },
+                "coordinates": [6387, 6510]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Krasnoyarsk",
+                    "iso": "RU"
+                },
+                "coordinates": [5828, 7119]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Dickson",
+                    "iso": "RU"
+                },
+                "coordinates": [5222, 9999]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Chita",
+                    "iso": "RU"
+                },
+                "coordinates": [6841, 6467]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Vladivostok",
+                    "iso": "RU"
+                },
+                "coordinates": [7748, 4997]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Nizhneyansk",
+                    "iso": "RU"
+                },
+                "coordinates": [7952, 9658]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Yakutsk",
+                    "iso": "RU"
+                },
+                "coordinates": [7641, 8110]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Tiksi",
+                    "iso": "RU"
+                },
+                "coordinates": [7596, 9689]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Magadan",
+                    "iso": "RU"
+                },
+                "coordinates": [8677, 7705]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Perm",
+                    "iso": "RU"
+                },
+                "coordinates": [4028, 7446]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Valencia",
+                    "iso": "ES"
+                },
+                "coordinates": [1242, 4397]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Palana",
+                    "iso": "RU"
+                },
+                "coordinates": [9126, 7624]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Petropavlovsk Kamchatskiy",
+                    "iso": "RU"
+                },
+                "coordinates": [9061, 6633]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "region_capital",
+                    "name": "Palermo",
+                    "iso": "IT"
+                },
+                "coordinates": [1918, 4174]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Amman",
+                    "iso": "JO"
+                },
+                "coordinates": [3029, 3157]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Vilnius",
+                    "iso": "LT"
+                },
+                "coordinates": [2507, 6900]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Riga",
+                    "iso": "LV"
+                },
+                "coordinates": [2447, 7273]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "region_capital",
+                    "name": "Lyon",
+                    "iso": "FR"
+                },
+                "coordinates": [1499, 5432]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Zagreb",
+                    "iso": "HR"
+                },
+                "coordinates": [2049, 5437]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Tallinn",
+                    "iso": "EE"
+                },
+                "coordinates": [2478, 7682]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "",
+                    "name": "Thessaloniki",
+                    "iso": "GR"
+                },
+                "coordinates": [2387, 4597]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Beirut",
+                    "iso": "LB"
+                },
+                "coordinates": [3008, 3473]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Tbilisi",
+                    "iso": "GE"
+                },
+                "coordinates": [3464, 4766]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Belgrade",
+                    "iso": "RS"
+                },
+                "coordinates": [2268, 5276]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Tirana",
+                    "iso": "AL"
+                },
+                "coordinates": [2236, 4701]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Yerevan",
+                    "iso": "AM"
+                },
+                "coordinates": [3450, 4512]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Baku",
+                    "iso": "AZ"
+                },
+                "coordinates": [3713, 4547]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Sofia",
+                    "iso": "BG"
+                },
+                "coordinates": [2408, 4924]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Minsk",
+                    "iso": "BY"
+                },
+                "coordinates": [2617, 6771]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Sarajevo",
+                    "iso": "BA"
+                },
+                "coordinates": [2166, 5116]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Valletta",
+                    "iso": "MT"
+                },
+                "coordinates": [1976, 3807]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Jerusalem",
+                    "iso": "IL"
+                },
+                "coordinates": [2993, 3128]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 3,
+                    "type": "capital",
+                    "name": "Nicosia",
+                    "iso": "CY"
+                },
+                "coordinates": [2903, 3686]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Ankara",
+                    "iso": "TR"
+                },
+                "coordinates": [2878, 4470]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Budapest",
+                    "iso": "HU"
+                },
+                "coordinates": [2200, 5717]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Sanaa",
+                    "iso": "YE"
+                },
+                "coordinates": [3435, 424]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Barcelona",
+                    "iso": "ES"
+                },
+                "coordinates": [1369, 4710]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Bucharest",
+                    "iso": "RO"
+                },
+                "coordinates": [2545, 5212]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "",
+                    "name": "Aleppo",
+                    "iso": "SY"
+                },
+                "coordinates": [3089, 3862]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Damascus",
+                    "iso": "SY"
+                },
+                "coordinates": [3047, 3412]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Zürich",
+                    "iso": "CH"
+                },
+                "coordinates": [1682, 5697]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Lisbon",
+                    "iso": "PT"
+                },
+                "coordinates": [812, 4272]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "",
+                    "name": "Jeddah",
+                    "iso": "SA"
+                },
+                "coordinates": [3190, 1439]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "",
+                    "name": "Makkah",
+                    "iso": "SA"
+                },
+                "coordinates": [3220, 1425]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Oslo",
+                    "iso": "NO"
+                },
+                "coordinates": [1790, 7762]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "St. Petersburg",
+                    "iso": "RU"
+                },
+                "coordinates": [2752, 7765]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Warsaw",
+                    "iso": "PL"
+                },
+                "coordinates": [2294, 6499]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Dublin",
+                    "iso": "IE"
+                },
+                "coordinates": [955, 6678]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "region_capital",
+                    "name": "Naples",
+                    "iso": "IT"
+                },
+                "coordinates": [1962, 4621]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "region_capital",
+                    "name": "Milan",
+                    "iso": "IT"
+                },
+                "coordinates": [1714, 5383]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "",
+                    "name": "Frankfurt",
+                    "iso": "DE"
+                },
+                "coordinates": [1688, 6145]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Hamburg",
+                    "iso": "DE"
+                },
+                "coordinates": [1754, 6713]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Munich",
+                    "iso": "DE"
+                },
+                "coordinates": [1831, 5821]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Prague",
+                    "iso": "CZ"
+                },
+                "coordinates": [1973, 6143]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Kuwait",
+                    "iso": "KW"
+                },
+                "coordinates": [3621, 2732]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital alt",
+                    "name": "Tel Aviv-Yafo",
+                    "iso": "IL"
+                },
+                "coordinates": [2971, 3178]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Helsinki",
+                    "iso": "FI"
+                },
+                "coordinates": [2488, 7804]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "København",
+                    "iso": "DK"
+                },
+                "coordinates": [1880, 7064]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 2,
+                    "type": "capital",
+                    "name": "Brussels",
+                    "iso": "BE"
+                },
+                "coordinates": [1475, 6266]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Kiev",
+                    "iso": "UA"
+                },
+                "coordinates": [2762, 6200]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Dubai",
+                    "iso": "AE"
+                },
+                "coordinates": [3980, 2050]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Madrid",
+                    "iso": "ES"
+                },
+                "coordinates": [1081, 4548]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Geneva",
+                    "iso": "CH"
+                },
+                "coordinates": [1564, 5504]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Stockholm",
+                    "iso": "SE"
+                },
+                "coordinates": [2152, 7668]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Dakar",
+                    "iso": "SM"
+                },
+                "coordinates": [403, 319]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Amsterdam",
+                    "iso": "NL"
+                },
+                "coordinates": [1504, 6516]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Berlin",
+                    "iso": "DE"
+                },
+                "coordinates": [1921, 6544]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Athens",
+                    "iso": "GR"
+                },
+                "coordinates": [2429, 4150]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Baghdad",
+                    "iso": "IQ"
+                },
+                "coordinates": [3445, 3385]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 1,
+                    "type": "capital",
+                    "name": "Vienna",
+                    "iso": "AT"
+                },
+                "coordinates": [2067, 5832]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 0,
+                    "type": "capital",
+                    "name": "London",
+                    "iso": "GB"
+                },
+                "coordinates": [1256, 6376]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 0,
+                    "type": "capital",
+                    "name": "Istanbul",
+                    "iso": "TR"
+                },
+                "coordinates": [2688, 4664]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 0,
+                    "type": "capital",
+                    "name": "Riyadh",
+                    "iso": "SA"
+                },
+                "coordinates": [3562, 1953]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 0,
+                    "type": "capital",
+                    "name": "Moscow",
+                    "iso": "RU"
+                },
+                "coordinates": [3111, 7076]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 0,
+                    "type": "capital",
+                    "name": "Rome",
+                    "iso": "IT"
+                },
+                "coordinates": [1876, 4794]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "rank": 0,
+                    "type": "capital",
+                    "name": "Paris",
+                    "iso": "FR"
+                },
+                "coordinates": [1377, 5942]
+            }]
+        }
+    },
+    "arcs": [],
+    "transform": {
+        "scale": [0.02033869176720729, 0.006073332268146935],
+        "translate": [-25.6665834976111, 12.779722512762874]
+    }
+}
