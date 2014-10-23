@@ -42,13 +42,84 @@ var color = d3.scale.linear()
 
 //Let's load the data that will be user for the choropleth
 var dataset,europe,places;
-var lastdate = "2013-09-10";
 
 queue()
   .defer (function (callback) {
-    d3.json("full.json", function(error, json) {
+    d3.json("signatures.json", function(error, json) {
       if (error) {console.warn(error);callback();}
-      dataset = json;
+dataset = {
+"paper":{
+"at":0,
+"be":0,
+"bg":0,
+"cy":0,
+"cz":0,
+"de":0,
+"dk":0,
+"ee":0,
+"el":0,
+"es":0,
+"fi":0,
+"fr":0,
+"hu":0,
+"ie":0,
+"it":0,
+"lt":0,
+"lu":0,
+"lv":0,
+"mt":0,
+"nl":0,
+"pl":0,
+"pt":0,
+"ro":0,
+"se":0,
+"si":0,
+"sk":0,
+"uk":0,
+"hr":0},
+
+    "quota": {
+        "at": 14250,
+        "be": 16500,
+        "bg": 13500,
+        "cy": 4500,
+        "cz": 16500,
+        "de": 74250,
+        "dk": 9750,
+        "ee": 4500,
+        "el": 16500,
+        "es": 40500,
+        "fi": 9750,
+        "fr": 55500,
+        "hu": 16500,
+        "ie": 9000,
+        "it": 54750,
+        "lt": 9000,
+        "lu": 4500,
+        "lv": 6750,
+        "mt": 4500,
+        "nl": 19500,
+        "pl": 38250,
+        "pt": 16500,
+        "ro": 24750,
+        "se": 15000,
+        "si": 6000,
+        "sk": 9750,
+        "uk": 54750,
+        "hr": 9000
+}};
+      dataset.online = {};
+      d3.map(json.signings_via_policat).forEach(function(k,v){
+        if (k == "GB") {dataset.online["uk"]=v;return};
+        if (k == "GR") {dataset.online["ee"]=v;return};
+        dataset.online[k.toLowerCase()] = v;
+      });
+      d3.map(json.signings_via_api).forEach(function(k,v){
+        if (k == "") return; // cleaning mess on policat data
+        if (k == "GB") {dataset.online["uk"] +=v;return};
+        if (k == "GR") {dataset.online["ee"] +=v;return};
+        dataset.online[k.toLowerCase()] += v;
+      });
       callback();
     });
   })
@@ -117,7 +188,7 @@ drawCities();
 function drawTotal () {
       var total = 0;
       d3.map(dataset.paper).forEach(function(k,v){total += v;});
-      d3.map(dataset.eci[lastdate]).forEach(function(k,v){total += v;});
+      d3.map(dataset.online).forEach(function(k,v){total += v;});
       var title = g.append("text")
         .attr("class", "title")
         .attr("transform", "scale(2)")
@@ -150,10 +221,10 @@ function getquota(id){
 
 
 function getsignatures(id, type){
-  if(dataset.eci[lastdate][id] == null)
+  if(dataset.online[id] == null)
 	   return "0";
 
-	  var online = dataset.eci[lastdate][id];
+	  var online = dataset.online[id];
     if (type == "online") 
       return online;
 	  var paper = dataset.paper[id];
