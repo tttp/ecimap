@@ -111,13 +111,13 @@ dataset = {
       dataset.online = {};
       d3.map(json.signings_via_policat).forEach(function(k,v){
         if (k == "GB") {dataset.online["uk"]=v;return};
-        if (k == "GR") {dataset.online["ee"]=v;return};
+        if (k == "GR") {dataset.online["el"]=v;return};
         dataset.online[k.toLowerCase()] = v;
       });
       d3.map(json.signings_via_api).forEach(function(k,v){
         if (k == "") return; // cleaning mess on policat data
         if (k == "GB") {dataset.online["uk"] +=v;return};
-        if (k == "GR") {dataset.online["ee"] +=v;return};
+        if (k == "GR") {dataset.online["el"] +=v;return};
         dataset.online[k.toLowerCase()] += v;
       });
       callback();
