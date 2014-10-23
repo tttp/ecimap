@@ -36,8 +36,8 @@ var div = d3.select("body").append("div")
 // color based on how many signatures as a % of the quota. Anything above 150% is the same color
 var color = d3.scale.linear()
         .clamp(true)
-        .domain([0, 0.9,1,1.5])
-        .range(["red","#e8eab8","lightgreen","#3a6033"])
+        .domain([0, 0.9,1,1.5]) // #cc0000 #a50000
+        .range(["#8e2121","#e8eab8","lightblue","#1e3e86"])
         .interpolate(d3.interpolateHcl);
 
 //Let's load the data that will be user for the choropleth
