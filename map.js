@@ -37,7 +37,7 @@ var div = d3.select("body").append("div")
 var color = d3.scale.linear()
         .clamp(true)
         .domain([0, 0.9,1,1.5]) // #cc0000 #a50000
-        .range(["#8e2121","#e8eab8","lightblue","#1e3e86"])
+        .range(["#ced9f4","#6cabe7","#0077d4","#1e3d87"])
         .interpolate(d3.interpolateHcl);
 
 //Let's load the data that will be user for the choropleth
