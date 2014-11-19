@@ -129,13 +129,8 @@ dataset = {
       callback();
     });
   })
-  .defer (function(callback) {
-    d3.json("places.json", function(error, json) {
-      places=json;
-      callback();
-    });
-  })
   .await(function (){
+     places=[];
      map(europe);
   });
 
@@ -183,7 +178,7 @@ function map( json ) {
   .attr("d", path)
 
 drawTotal();
-drawCities();
+//drawCities();
 
 function drawTotal () {
       var total = 0;
