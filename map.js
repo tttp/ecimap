@@ -241,7 +241,6 @@ function tooltipin(d){
     var title = d.properties.name + " "+ percentage+ "%";
     var body= 
 "<ul><li>Online: " + online +
-"</li><li>Paper: " + paper +
 "</li><li>Threshold: "  + quota + "</li><ul>";
   } else {
     var title = d.properties.name;
