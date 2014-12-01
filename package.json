@@ -1,0 +1,25 @@
+{
+  "name": "ecimap",
+  "version": "1.1.0",
+  "description": "map to display signatures of an eci",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tttp/ecimap.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-uglify": "~0"
+  },
+  "author": "Xavier Dutoit",
+  "license": "aGPL3",
+  "bugs": {
+    "url": "https://github.com/tttp/ecimap/issues"
+  },
+  "dependencies": {
+    "grunt-contrib-uglify": "^0.6.0"
+  }
+}

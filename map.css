@@ -1,4 +1,9 @@
 
+#ecimap {
+  width : 960px;
+  height: 700px;
+}
+
 .title {
   font-size: 80px;
   font-family:"Open Sans", sans-serif;

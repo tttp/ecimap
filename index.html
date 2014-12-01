@@ -1,12 +1,23 @@
 <!DOCTYPE html>
+<head>
 <meta charset="utf-8">
 <link href="map.css" rel="stylesheet"/>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<style>
+#ecimap {
+  width : 960px;
+  height: 700px;
+}
+</style>
+</head>
 <body>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <script src="js/d3.v3.min.js"></script>
 <script src="js/topojson.v1.min.js"></script>
 <script src="js/queue.v1.min.js"></script>
+<div id="ecimap" qwidth="123" qheight="33">
+</div>
 <script src="map.js"></script>
+
 <div class="explanation">
 For a European Citizens Initiative to be successful, it needs to reach 1,000,000 signatures overall and a minimum amount of signatures (quorum) in at least seven EU member states. This map shows how the number of signatures is divided by country and what percentage of the quorum has already been reached. The darker the blue, the higher the percentage.
 

@@ -1,31 +1,55 @@
+(function () {
 var active= null,
     width = 960,
     height = 700;
 
   //equirectangular fits better on a screen (more width than height) than mercator()
-  var projection = d3.geo.equirectangular()
-    .center([13,52]) //theorically, 50°7′2.23″N 9°14′51.97″E
-    .scale(width*1.11)
-    .translate([width / 2, height / 2]);
-//    .translate([width / 2 - 320, height / 2 + 700]);
+  var projection= null;
+
+var selector = "#ecimap";
+if (!d3.select(selector)) {
+  console.log("missing div id='ecimap'");
+  selector="body";
+}
+
+if (!d3.select(selector).node()) {
+  console.log("div id='ecimap' must be before the script call");
+}
+
+var svg = null, g= null;
 
 
-var svg = d3.select("body").append("svg")
+var draw = function () {
+console.log ("here draw");
+//var svg = d3.select("body").append("svg")
+//d3.select("#ecimap").node().offsetWidth
+  width= parseInt(d3.select(selector).node().offsetWidth); 
+  height= parseInt(d3.select(selector).node().offsetHeight); 
+
+  svg = d3.select(selector).append("svg")
     .attr("class", "map")
     .attr("width", width)
     .attr("height", height);
 
-svg.append("rect")
+  svg.append("rect")
     .attr("class", "ocean")
     .attr("width", width)
     .attr("height", height)
     .on("click", reset);
 
-var g = svg.append("g");
+  g = svg.append("g");
+  projection= d3.geo.equirectangular()
+    .center([13,52]) //theorically, 50°7′2.23″N 9°14′51.97″E
+    .scale(width*1.11)
+    .translate([width / 2, height / 2]);
+//    .translate([width / 2 - 320, height / 2 + 700]);
+  path = d3.geo.path().projection(projection);
+  console.log(height);
+};
 
 
   //Countries paths
-var path = d3.geo.path().projection(projection);
+var path = null;
 
 var feature=null;
 
@@ -37,7 +61,7 @@ var div = d3.select("body").append("div")
 var color = d3.scale.linear()
         .clamp(true)
         .domain([0, 0.9,1,1.5]) // #cc0000 #a50000
-        .range(["#ced9f4","#6cabe7","#0077d4","#1e3d87"])
+        .range(["#ced9f4","#6cabe7","#1e3d87","#1e3d87"])
         .interpolate(d3.interpolateHcl);
 
 //Let's load the data that will be user for the choropleth
@@ -131,6 +155,9 @@ dataset = {
   })
   .await(function (){
      places=[];
+     if (!g) {
+       draw();
+     }
      map(europe);
   });
 
@@ -184,14 +211,17 @@ function drawTotal () {
       var total = 0;
       d3.map(dataset.paper).forEach(function(k,v){total += v;});
       d3.map(dataset.online).forEach(function(k,v){total += v;});
+/*  width : 960px;
+  height: 700px;
+*/
       var title = g.append("text")
         .attr("class", "title")
         .attr("transform", "scale(2)")
-        .attr("x", 80)
-        .attr("y", 200)
+        .attr("x", width/15)
+        .attr("y", height/3.5)
   	    .transition()        
-          .attr("x", 50)
-          .attr("y", 100)
+          .attr("x", width/20)
+          .attr("y", height/7)
           .text(total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'"))
           .duration(2000) 
           .attr("transform", "scale(1)")
@@ -341,3 +371,6 @@ function reset() {
   g.selectAll(".active").classed("active", active = false);
   g.transition().duration(750).attr("transform", "");
 }
+
+
+})();
