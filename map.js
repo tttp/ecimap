@@ -6,6 +6,7 @@ var active= null,
   //equirectangular fits better on a screen (more width than height) than mercator()
   var projection= null;
 
+var root="https://stop-ttip.org/ecimap/";
 var selector = "#ecimap";
 if (!d3.select(selector)) {
   console.log("missing div id='ecimap'");
@@ -69,7 +70,7 @@ var dataset,europe,places;
 
 queue()
   .defer (function (callback) {
-    d3.json("signatures.json", function(error, json) {
+    d3.json(root+"signatures.json", function(error, json) {
       if (error) {console.warn(error);callback();}
 dataset = {
 "paper":{
@@ -148,7 +149,7 @@ dataset = {
     });
   })
   .defer (function(callback) {
-    d3.json("europe50b.json", function(error, json) {
+    d3.json(root+"europe50b.json", function(error, json) {
       europe=json;
       callback();
     });
