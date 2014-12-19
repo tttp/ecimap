@@ -271,7 +271,7 @@ function tooltipin(d){
     var percentage = Math.floor(((online + paper) / quota) * 100);
     var title = d.properties.name + " "+ percentage+ "%";
     var body= 
-"<ul><li>Online: " + online +
+"<ul><li>Total: " + online +
 "</li><li>Threshold: "  + quota + "</li><ul>";
   } else {
     var title = d.properties.name;
