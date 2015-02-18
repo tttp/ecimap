@@ -208,10 +208,14 @@ function map( json ) {
 drawTotal();
 //drawCities();
 
+function isNumber(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
 function drawTotal () {
       var total = 0;
-      d3.map(dataset.paper).forEach(function(k,v){total += v;});
-      d3.map(dataset.online).forEach(function(k,v){total += v;});
+      d3.map(dataset.paper).forEach(function(k,v){if(isNumber(v)) total += v;});
+      d3.map(dataset.online).forEach(function(k,v){if(isNumber(v)) total += v;});
 /*  width : 960px;
   height: 700px;
 */
