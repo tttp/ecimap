@@ -177,8 +177,7 @@ var color = d3.scale.linear()
         .interpolate(d3.interpolateHcl);
 
 //Let's load the data that will be user for the choropleth
-var dataset,europe,places;
-var lastdate = "2013-09-10";
+var dataset,europe;
 
 queue()
   .defer (function (callback) {
@@ -191,12 +190,6 @@ queue()
   .defer (function(callback) {
     d3.json("europe50b.json", function(error, json) {
       europe=json;
-      callback();
-    });
-  })
-  .defer (function(callback) {
-    d3.json("places.json", function(error, json) {
-      places=json;
       callback();
     });
   })
@@ -248,12 +241,12 @@ function map( json ) {
   .attr("d", path)
 
 drawTotal();
-drawCities();
+//drawCities();
 
 function drawTotal () {
       var total = 0;
       d3.map(dataset.paper).forEach(function(k,v){total += v;});
-      d3.map(dataset.eci[lastdate]).forEach(function(k,v){total += v;});
+      d3.map(dataset.online).forEach(function(k,v){total += v;});
       var title = g.append("text")
         .attr("class", "title")
         .attr("transform", "scale(2)")
@@ -286,10 +279,10 @@ function getquota(id){
 
 
 function getsignatures(id, type){
-  if(dataset.eci[lastdate][id] == null)
+  if(dataset.online[id] == null)
 	   return "0";
 
-	  var online = dataset.eci[lastdate][id];
+	  var online = dataset.online[id];
     if (type == "online") 
       return online;
 	  var paper = dataset.paper[id];

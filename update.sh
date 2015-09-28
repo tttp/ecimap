@@ -1,2 +1,3 @@
-curl -o signatures.json https://www.policat.org/api/v2/actions/230/signings?segregate=countries 
-
+echo "fetching from $1"
+curl $1/stats?output=json | sed 's/total/online/' > openeci.json
+jq -s add base.json openeci.json > full.json
